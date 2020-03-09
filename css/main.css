@@ -1,10 +1,12 @@
 :root {
   --color-primary: red;
   --border-radius: 4px;
+  --font-primary: sans-serif;
+  --font-secondary: "Roboto Slab", sans-serif;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: var(--font-primary);
 }
 
 .card {
@@ -16,6 +18,11 @@ html {
 
 .card-title {
   color: var(--color-primary);
+}
+
+.btn {
+  color: var(--color-primary);
   border-color: var(--color-primary);
   border-radius: var(--color-primary);
+  font-family: var(--font-secondary);
 }
